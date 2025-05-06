@@ -4,3 +4,9 @@ langchain
 huggingface-hub
 sentence-transformers
 faiss-cpu
+argparse
+pandas
+transformers
+torch
+trl
+git+https://github.com/unslothai/unsloth.git
