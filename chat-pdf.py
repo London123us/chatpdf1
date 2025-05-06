@@ -19,7 +19,7 @@ def main():
     with st.sidebar:
         st.header("Configuration")
         hf_token = st.text_input("HuggingFace Hub API Token", type="password")
-        os.environ["HUGGINGFACEHUB_API_TOKEN"] = hf_token
+        os.environ["HUGGINGFACEHUB_API_TOKEN"] = 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
         
         model_options = {
             "google/flan-t5-xl": "Large but accurate",
